@@ -1,0 +1,5 @@
+version: "3.8"
+services:
+  s3proxy:
+    image: ghcr.io/dotscene-gmbh/s3proxy:2.0.0
+    build: .
